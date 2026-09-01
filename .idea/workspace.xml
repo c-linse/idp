@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4456e621-70e2-45e8-930e-7573e3a4dd59" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app-config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/app-config.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/app/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/app/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/org.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/examples/org.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/backend/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/backend/src/index.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +26,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -34,6 +36,7 @@
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/home/clinse/dev/clinse/idp",
     "nodejs_package_manager_path": "yarn",
+    "prettierjs.PrettierConfiguration.Package": "/home/clinse/dev/clinse/idp/node_modules/prettier",
     "ts.external.directory.path": "/home/clinse/dev/clinse/idp/node_modules/typescript/lib"
   }
 }]]></component>
