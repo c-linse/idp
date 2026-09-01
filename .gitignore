@@ -80,5 +80,6 @@ target/
 ### VS Code ###
 .vscode/
 
+app-config.local.yaml
 
 .DS_Store
