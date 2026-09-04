@@ -56,7 +56,7 @@ app:
               timeZone: Asia/Tokyo
     - page:home:
         config:
-          path: /home
+          path: /
           defaultConfig:
             - component: HomePageSearchBar
               column: 0

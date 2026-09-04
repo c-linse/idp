@@ -1,0 +1,24 @@
+services:
+  postgres:
+    image: postgres:18-trixie
+    container_name: backstage-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: backstage
+      POSTGRES_PASSWORD: backstage
+      POSTGRES_DB: backstage
+      # Uncomment to make scheduled-task timing easier to reason about during development
+      # TZ: Europe/Stockholm
+      # PGTZ: Europe/Stockholm
+    ports:
+      - '5432:5432'
+    volumes:
+      - postgres-data:/var/lib/postgresql
+    healthcheck:
+      test: ['CMD-SHELL', 'pg_isready -U backstage']
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  postgres-data:
